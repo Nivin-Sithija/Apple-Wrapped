@@ -1,0 +1,25 @@
+appId: com.sithija.apple-music-recap
+productName: Apple Music Recap
+directories:
+  buildResources: build
+  output: dist
+files:
+  - out/**/*
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.*'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml}'
+  - '!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
+mac:
+  icon: build/icon.png
+  category: public.app-category.music
+  extendInfo:
+    NSAppleEventsUsageDescription: Apple Music Recap reads your Music library to generate your personalized listening recap.
+  artifactName: '${productName}-${version}-${arch}.${ext}'
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+dmg:
+  writeUpdateInfo: false
