@@ -3,7 +3,7 @@
 
 Like Spotify Wrapped for Apple Music Library, but better because you don't have to wait until December, and you can go back to any year you want.
 
-Apple-Wrapped is a macOS desktop app that reads straight from your Apple Music library. No account needed. No API keys. No Spotify subscription. Just you, your Mac, and your (possibly questionable) taste in music. Perfect if you somehow own a Mac but are too broke to buy Apple Music or Spotify, or if you really like using your local Apple Music library.
+Apple-Wrapped is a macOS desktop app that reads straight from your Apple Music library. No account needed. No API keys. No Spotify subscription. Just you, your Mac, and your (possibly questionable) taste in music. Perfect if you really like using your local Apple Music library, or if you somehow own a Mac but are too broke to buy Apple Music or Spotify like me.
 
 ## How it works
 Under the hood, this app uses AppleScript to securely access your local Music library data. Then it processes your listening history to generate detailed statistics faster than you can skip a song. The result is a recap that lets you explore your library's story whenever you feel like.
